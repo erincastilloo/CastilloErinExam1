@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1fbf87</item>
+        <item name="colorPrimaryDark">#155c53</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PersonName">
+        <item name="android:textColor">#0c2066</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="PersonDesc">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">35dp</item>
+    </style>
+
+    <style name="FrameBorder">
+        <item name="android:layout_weight">1</item>
+        <item name="android:color">#000</item>
+        <item name="android:strokeWidth">2</item>
+        <item name="android:strokeColor">#000</item>
+    </style>
+
+    <style name="PicFormat">
+        <item name="android:layout_marginTop">280dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_width">77dp</item>
+        <item name="android:layout_height">77dp</item>
+    </style>
+</resources>

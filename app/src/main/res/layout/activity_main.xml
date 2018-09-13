@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frameLayout3"
+        style="@style/FrameBorder"
+        android:layout_width="368dp"
+        android:layout_height="149dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        android:background="@drawable/customb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <TextView
+            android:id="@+id/Luke"
+            style="@style/PersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luke Skywalker" />
+
+        <TextView
+            android:id="@+id/LSText"
+            style="@style/PersonDesc"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dapibus non eros at sagittis. Ut venenatis ipsum vel metus vestibulum aliquam. Pellentesque leo nisl, dictum non justo id, sagittis maximus magna." />
+
+        <ImageView
+            android:id="@+id/LSPic"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/lspic" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frameLayout2"
+        style="@style/FrameBorder"
+        android:layout_width="368dp"
+        android:layout_height="155dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        android:background="@drawable/customb"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Annalease"
+            style="@style/PersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Annalease Keating"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/AKText"
+            style="@style/PersonDesc"
+            android:layout_width="272dp"
+            android:layout_height="114dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dapibus non eros at sagittis. Ut venenatis ipsum vel metus vestibulum aliquam. Pellentesque leo nisl, dictum non justo id, sagittis maximus magna." />
+
+        <ImageView
+            android:id="@+id/AKPic"
+            style="@style/PicFormat"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/akpic" />
+    </FrameLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frameLayout"
+        style="@style/FrameBorder"
+        android:layout_width="368dp"
+        android:layout_height="162dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="3"
+        android:background="@drawable/customb"
+        android:paddingRight="2dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <TextView
+            android:id="@+id/Jake"
+            style="@style/PersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jake Peralta" />
+
+        <TextView
+            android:id="@+id/JKText"
+            style="@style/PersonDesc"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dapibus non eros at sagittis. Ut venenatis ipsum vel metus vestibulum aliquam. Pellentesque leo nisl, dictum non justo id, sagittis maximus magna." />
+
+        <ImageView
+            android:id="@+id/JKPic"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/jkpic" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
